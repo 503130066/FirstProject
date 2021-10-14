@@ -5,3 +5,8 @@
 
 
 print('hello')
+import pandas
+df = pandas.read_csv('Aviation safety.csv')
+print(df.info())
+
+
